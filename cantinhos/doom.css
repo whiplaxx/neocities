@@ -1,10 +1,15 @@
+* {
+    cursor:url("images/doom_pistol.png"), auto;
+}
+
 body {
     background-color: black;
     color: red;
 }
 
-a, a:visited {
+a, a:visited, a:hover {
     color: red;
+    cursor:url("images/doom_pistol.png"), auto;
 }
 
 img#logo_doom {
@@ -15,7 +20,7 @@ img#logo_doom {
 }
 
 footer > nav a::before {
-    background-image: url('doom_skull.gif');
+    background-image: url('images/doom_skull.gif');
     background-size: 1.1rem;
     background-repeat: no-repeat;
     background-position: bottom;

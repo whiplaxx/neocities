@@ -18,7 +18,7 @@ img#vote_for_anarchy {
 }
 
 a#nav-home::before {
-    background-image: url('casa_simpsons.png');
+    background-image: url('images/casa_simpsons.png');
     background-size: 2rem;
     background-repeat: no-repeat;
     background-position: bottom;
