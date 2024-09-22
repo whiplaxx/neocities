@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(3, 170, 221);
+    color: rgb(230, 196, 7);
+}
+
+a, a:visited {
+    color: rgb(230, 196, 7);
+}
+
+img#vote_for_anarchy {
+    position:fixed;
+    
+    bottom: 0%;
+    right: 5%;
+    
+    transform: scale(1.5);
+    transform-origin: bottom right; /* se não imagem cresce pelo centro e some nas margem*/
+}
+
+a#nav-home::before {
+    background-image: url('casa_simpsons.png');
+    background-size: 2rem;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1.5rem;
+    width: 2rem;
+    content: '';
+    display: inline-block;
+}
