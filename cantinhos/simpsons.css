@@ -8,13 +8,20 @@ a, a:visited {
 }
 
 img#vote_for_anarchy {
-    position: wfixed;
-    
-    bottom: 0%;
-    right: 5%;
-    
-    transform: scale(1.5);
-    transform-origin: bottom right; /* se não imagem cresce pelo centro e some nas margem*/
+    /* alinhar na direita sem sobrepor conteúdo */
+    display: block;
+    margin-left: auto;
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+    img#vote_for_anarchy {
+        position: fixed;
+        bottom: 0%;
+        right: 5%;
+
+        transform: scale(1.5);
+        transform-origin: bottom right; /* se não imagem cresce pelo centro e some nas margem*/
+        max-width: 100%;
+    }
 }
 
 a#nav-home::before {
