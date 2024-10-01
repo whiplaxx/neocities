@@ -9,10 +9,6 @@ body {
   font-family: Verdana;  
 }
 
-a {
-  color: var(--text-color)
-}
-
 footer {
   margin-top: 3rem;
 }
@@ -39,3 +35,13 @@ img {
 }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+a {
+  color: var(--text-color)
+}
+
+a.button img {
+  width: 88px;
+  height: auto;
+  box-shadow: 1px 1px 2px black;
+}

@@ -1,15 +1,10 @@
 * {
-    cursor:url("images/doom_pistol.png"), auto;
+    cursor:url("images/doom_pistol.png"), auto !important;
 }
 
 body {
     background-color: black;
     color: red;
-}
-
-a, a:visited, a:hover {
-    color: red;
-    cursor:url("images/doom_pistol.png"), auto;
 }
 
 img#logo_doom {
